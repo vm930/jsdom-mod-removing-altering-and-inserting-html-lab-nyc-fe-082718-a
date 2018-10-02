@@ -16,6 +16,4 @@ let main = document.querySelector("#main")
 let newHeader = null;
 main.remove();
 newHeader = document.createElement("h1");
-document.getElementsByTagName("h1")[0].setAttribute("id","victory")
-
-
+newHeader.setAttribute("id","victory);
