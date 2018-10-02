@@ -13,7 +13,7 @@
 // body.appendChild(newHeader);
 
 let main = document.querySelector("#main")
-let newHeader = null;
+
 main.remove();
 let newHeader = document.createElement("h1");
 newHeader.innerText = "victoria";
