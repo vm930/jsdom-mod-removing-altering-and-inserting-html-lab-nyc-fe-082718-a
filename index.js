@@ -15,5 +15,5 @@
 let main = document.querySelector("#main")
 let newHeader = null;
 main.remove();
-newHeader = document.createElement("h1");
-newHeader.setAttribute("id","victory);
+let newHeader = document.createElement("h1");
+newHeader.innerText = "victoria";
